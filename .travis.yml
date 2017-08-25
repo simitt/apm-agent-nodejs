@@ -176,7 +176,7 @@ notifications:
   email:
     - watson@elastic.co
   slack:
-    secure: Jq9ST6TYsZZtPgUdn60rZCfcclNF1cXaCqemt9ZKvqlDie9kbyJjU9t0K+EFdlQXgzM5sGAC+okRO9c29zMDuWvsuY6wb5K2p9j1cxfOn1FTc4xcxh/fKelu1Q7nGaMOIPvQuoI/TQBo4pwACyjli+ohz7DMVMRcans6GR+P0S8=
+    secure: "ofSGA4QZ6OgyWjzDagxqFLSY5CMmHqnOShfsoJmGpou+jO5vvkuDmLx0E+jhTz2TlaOgMKso+HISCnRjuD7QL5wU2yoTvlqWiWETSRAKuXT6Tw1qpuzYKTIxBjCfRJNyrv9hy9Hb3fZKpwcXNky7oyy8YNhbrXXqcVoS4GnZO7eL2+Sa0t48/JDs0TtJ6q6UKJMaMyYdmaUF1O1Myy85YIOWY6OqwrizkuuGDSSdZ6h7Ba+y6Jojy3S9jwQiAooNh4fU76AJr9T/uQ3WiIAeOdr8xvoUHmSUmCnJTSSEdCYsq54TZoX/xePxVkr75evwVH9DOnFkMu7yXrfZ9S4wu+etDBF5O3FPjUaRjHXZ6vjhqrmQmXgdnSBOlBybQknX/6H1Ub9mcmSnJRE78jEecfqqsgqRsxdI03knX4jKpGeq+iAJiDsJc+O3axGRCHFoKyYZLjv6vuIP6Rbx9TTMBoLRI6nz/KwXctuhX3YlOa9YTPk76OgplWpjl05+Iu+mqOcF3NuLwVyvuyUdiLg+n5ejRpfW/KIEniGATIIjuFlpHoLRL6GWXDo85+zEm8DtJyIEgrPzcTkGtkFOrQrrtn+wKuRytO/c/Vj6zRJ8AcdfZ04wWWeBYLomxgduapMDvNDKU/puKH3gA8uUA2rj47CdrCQ+8k5IQVMeVbOVZfk="
     on_success: change
     on_failure: change
     on_pull_requests: false
