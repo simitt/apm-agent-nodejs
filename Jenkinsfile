@@ -1,6 +1,7 @@
 #!groovy
 def nodejs_versions = ['8','7.9.0','6', '5', '4', '0.10', '0.12']
 def test_jobs = [:]
+
 def tav_nodejs_versions = ['8','7','6', '5', '4', '0.10', '0.12']
 def tav_envs = ['generic-pool,mysql,redis,koa-router','ioredis,pg','bluebird','knex,ws,graphql,express-graphql,elasticsearch']
 def tav_jobs = [:]
