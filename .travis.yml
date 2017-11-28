@@ -36,6 +36,12 @@ jobs:
       script: npm run docs
       perl: "5.26"
 
+    # Commit Messages
+    - stage: 'test'
+      before_install: git fetch --unshallow
+      env: LINT_COMMIT_MESSAGES=true
+      script: test/lint-commits.sh
+
     # Node.js 9
     - stage: dependencies
       node_js: '9'
