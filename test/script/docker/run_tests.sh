@@ -22,7 +22,11 @@ fi
 
 docker-compose build --pull --build-arg NODE_VERSION=$1 node_tests
 docker-compose run \
-  -e NODE_VERSION=${NODE_VERSION} -e TAV=${TAV_VERSIONS} -e CI=true \
+  -e NODE_VERSION=${NODE_VERSION} \
+  -e TAV=${TAV_VERSIONS} \
+  -e CI=true \
+  -e TRAVIS=${TRAVIS} \
+  -e JENKINS=${JENKINS} \
   -v ${npm_cache}:${docker_npm_cache} \
   --rm node_tests \
   /bin/bash \

@@ -2,7 +2,7 @@
 
 set -e
 
-if [[ -z "$TRAVIS" && -z "$JENKINS" ]]; then
+if [[ ! -z "$TRAVIS" ]]; then
   # In case you're on a branch, check all commit between this branch and master
   ./node_modules/.bin/commitlint --from=master
 
